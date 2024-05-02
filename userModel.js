@@ -18,7 +18,7 @@ const User = db.define("Users", {
     }
  });
  db.sync().then(() => {
-    console.log('Book table created successfully!');
+    console.log('user table created successfully!');
  }).catch((error) => {
     console.error('Unable to create table : ', error);
  });
