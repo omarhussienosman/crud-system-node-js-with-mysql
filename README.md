@@ -2,5 +2,5 @@
 A simple system for creating, modifying, displaying and deleting users. Modules used:
 - express
 - mysql2
--sequelize
--body-parser
+- sequelize
+- body-parser
